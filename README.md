@@ -1,8 +1,7 @@
 # Union Avatars technical test:
 
-## This is Sergio Domínguez's technical test for the Union Avatar job application:
-
-### This is a short manual to setup the project.
+## This technical test was exclusively made by Sergio Domínguez's for the Union Avatar job application:
+##
 
 #### 1. Install the dependencies:
 
