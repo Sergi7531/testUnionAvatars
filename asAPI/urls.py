@@ -22,5 +22,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('asinfowithasnum/<int:as_number>/', return_asInfo_With_AS_Number , name='return_asInfo_With_AS_Number'),
     # Create a new URL for the function return_asInfo_With_IP with a regexp for the ip_address:
-    path('asinfowithip/<int:ip_address1>/<int:ip_address2>/<int:ip_address3>/<int:ip_address4>/', return_asInfo_With_IP , name='return_asInfo_With_IP'),
+    path('asinfowithip/<int:ip_address1>.<int:ip_address2>.<int:ip_address3>.<int:ip_address4>/', return_asInfo_With_IP , name='return_asInfo_With_IP'),
 ]
